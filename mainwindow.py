@@ -65,9 +65,9 @@ class MainWindow(QMainWindow):
         if self.ui.btnLineal.isChecked():
             self.neuron.funcionSeleccionada = "lineal"
             # print("LINEAL ",self.ui.btnLineal.isChecked())
-        elif self.ui.btnLogistica.isChecked():
-            # print("LOGISTICA ", self.ui.btnLogistica.isChecked())
-            self.neuron.funcionSeleccionada = "logistica"
+        # elif self.ui.btnLogistica.isChecked():
+        #     # print("LOGISTICA ", self.ui.btnLogistica.isChecked())
+        #     self.neuron.funcionSeleccionada = "logistica"
         else:
             # print("TANGENCIAL ",self.ui.btnTangencial.isChecked())
             self.neuron.funcionSeleccionada = "tangencial"

@@ -181,4 +181,4 @@ class Perceptron:
         # bias random con rango [-1,1]
         self.b = -1 + (1 - (-1)) * np.random.rand()
         self.eta = learning_rate
-        self.errorObjetivo = 0.001
+        self.errorObjetivo = 0.00001

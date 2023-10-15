@@ -29,7 +29,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Clasificar</string>
+     <string>Iniciar</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txtW1">
@@ -300,7 +300,7 @@
    <widget class="QRadioButton" name="btnLineal">
     <property name="geometry">
      <rect>
-      <x>704</x>
+      <x>790</x>
       <y>590</y>
       <width>111</width>
       <height>20</height>
@@ -312,28 +312,10 @@
      </font>
     </property>
     <property name="text">
-     <string>Lineal</string>
+     <string>Regresión</string>
     </property>
     <property name="checked">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="btnLogistica">
-    <property name="geometry">
-     <rect>
-      <x>814</x>
-      <y>590</y>
-      <width>121</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Logística</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="btnTangencial">
@@ -351,7 +333,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Tangencial</string>
+     <string>Clasificación</string>
     </property>
    </widget>
    <widget class="QLabel" name="lblNombre_2">
