@@ -1,0 +1,6 @@
+Translate the QT interface (.ui) to python code by running the command:
+
+    pyuic5 -x UI.ui -o ui_mainwindow.py
+
+where UI.ui is the name of the QT UI file and
+ui_mainwindow.py is the name of the output python file
