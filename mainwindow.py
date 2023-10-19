@@ -90,6 +90,17 @@ class MainWindow(QMainWindow):
         self.neuron.fit(X, Y, self.ui)
         print("Post entrenamiento: ",self.neuron.predict(X))
 
+        # barrido con datos de prueba 
+
+        # matriz 2xN con todas las combinaciones de [-10,10] en [x,y]
+        rango = range(-10, 11)
+        X_prueba = np.array([[x, y] for x in rango for y in rango]).T # transpose 
+
+        Y_prueba = self.neuron.predict(X_prueba)
+
+        self.neuron.graficador.plotMatrix(X_prueba,Y_prueba)
+        self.neuron.guardarActualizar(self.ui)
+
         # limpiamos
         self.entradas = []
         self.salidas = []

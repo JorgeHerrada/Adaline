@@ -63,11 +63,9 @@ class Graficafor:
     
     # plotmatriz
     def plotMatrix(self,X,Y):
-
         # X transpuesto
         for x, y in zip(np.transpose(X), Y):
-            # if y == 1:
-            if y >= 0.5:
+            if y >= 0:
                 self.setPunto(x[0],x[1],1)
             else:
                 self.setPunto(x[0],x[1],0)
